@@ -15,3 +15,34 @@ My previous work experience has increased my knowledge of managing Information S
 
 - **Bachelor of Information Systems**, June 2010, Kazakh University of Economics, Finance and International Trade, Astana city, Kazakhstan
 - **Bachelor of Human History**, June 2008, E.A.Buketov Karaganda State University, Karaganda city, Kazakhstan
+
+### Additional skills:
+
+- HTML
+- CSS
+- JavaScript (basic)
+- Git
+- Adobe Photoshop, Illustrator, Figma
+
+### Languages:
+
+- **English** - Intermediate
+- **Russian** - Fluent
+- **Turkish** - Pre Intermediate
+- **Kazakh** - Native
+
+### Code example:
+
+```
+JavaScript
+const buildUrl = (address, domen) => {
+
+if (address.startsWith('/')) {
+  const startsWithSlash = 'https:' + '//' + domen + address;
+  return startsWithSlash;
+} else {
+  const domenaddress = 'https:' + '//' + domen + '/' + address
+  return domenaddress;
+}
+}
+```
